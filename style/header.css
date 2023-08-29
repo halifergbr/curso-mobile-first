@@ -10,7 +10,8 @@
     .cabecalho{background-color: var(--branco);
     display: flex;
 justify-content: space-between;
-align-items: center;}
+align-items: center;
+position: relative;}
 
 .container{
     display: flex;
@@ -21,3 +22,37 @@ align-items: center;}
     padding: 1em;
 }
 
+.lista-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 70vw;
+}
+
+.lista-menu_titulo,.lista-menu_item{
+    padding: 1em;
+    background-color: var(--branco);
+}
+
+.lista-menu_titulo{
+    color: var(--amarelo);
+    font-weight: 700;
+}
+
+.lista-menu_link{
+    color: var(--roxo);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.container_titulo{
+    display: none;
+}
+
+.container_botao{
+    display: none;
+}
+
+.container_botao:checked~.lista-menu{
+    display: block;
+}

@@ -1,13 +1,13 @@
-body{
-    background-color: blue;
-    color: blue;
-}
 
-@import url("styles/header.css");
+
+@import url('style/header.css');
+@import url('style/reset.css');
 
 :root{
     --cor-de-fundo: #EBECEE;
     --branco:#FFFFFF;
+    --amarelo:#FECD2F;
+    --roxo:#994984;
 }
 
 body{
