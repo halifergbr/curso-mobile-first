@@ -1,7 +1,5 @@
-
-
-@import url('style/header.css');
 @import url('style/reset.css');
+@import url('style/header.css');
 @import url('style/banner.css');
 
 :root{
@@ -9,12 +7,15 @@
     --branco:#ffffff;
     --amarelo:#FECD2F;
     --roxo:#8a1aa0;
-    --fonte-principal:"Poppins"
+    --preto:#000000;
+    --fonte-principal:"Poppins";
+    --fonte-secundaria:"Josefin Sans";
 }
 
 body{
     background-color: var(--cor-de-fundo);
     font-family: var(--fonte-principal);
+    font-family: var(--fonte-secundaria);
     font-size: 16px;
     font-weight: 400;
 }
